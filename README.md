@@ -12,7 +12,7 @@ All the data for this project was collected in 2022 from the ARM AMF1 site in La
 * MWRLOS: _Microwave Water Radiometer (MWR) water liq. & vapor along line of sight (LOS) path_
 
 ## SB_Identification: Functions and Scope
-This script is used to identify when a sea-breeze was present in the data using gradients in wind speeds and water vapor (further explained in the attatched brief). The script features three defined functions. These are used for designing and applying a lowpass filter, performing a windowed average, and performing a first derivate with a central differencing scheme. Futher description of the design of these functions and thier implimentation can be found in the attatched brief. Each defined function gives a detailed description of inputs and outputs in the script itself. 
+This script is used to identify when a sea-breeze was present in the data using gradients in wind speeds and water vapor (further explained in the attatched brief). The script features three defined functions. These are used for designing and applying a lowpass filter, performing a windowed average, and performing a first derivate with a central differencing scheme. Each defined function gives a detailed description of inputs and outputs in the script itself. 
 
 This script is broken down into 4 main sections:
 * Defined functions and packages
@@ -21,7 +21,7 @@ This script is broken down into 4 main sections:
 * Data Graphing
 
 ## Aero_Correlation: Functions and Scope
-More to come
+Once cases are identified as either a baseline(no SB),SB, or consequtive SB case the correlation code can be run. 
 
 
 ## Dependencies 
