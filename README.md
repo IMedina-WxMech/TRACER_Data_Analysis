@@ -21,8 +21,13 @@ This script is broken down into 4 main sections:
 * Data Graphing
 
 ## Aero_Correlation: Functions and Scope
-Once cases are identified as either a baseline(no SB),SB, or consequtive SB case the correlation code can be run. 
+Once cases are identified as either a baseline(no SB),SB, or consecutive SB case the correlation code can be run. This code reads in segregated data files (in individual folders based on cassification) and read in. For the SB and consecutive cases the SB passage time is calculated as a function seperately for data anlysis. Here it loops over classifications (1-3), then over case files. From here the mean aerosol content and standard error for each time period and classification are saved outside the loop and graphed. 
 
+This script is broken down into 4 main sections:
+* Defined functions and packages
+* Data pathing, read in, and pre processing
+* Data processing
+* Data Graphing
 
 ## Dependencies 
 The python codes require the following packages (all are generally available in standard python distributions):
