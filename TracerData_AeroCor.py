@@ -217,7 +217,7 @@ for i in range (0,len(sub_folders)):
 
 # =============================================================================
 """
-Section III: Data Graphing
+Section IV: Data Graphing
 
 """
 plt.figure(figsize=(15,10))
