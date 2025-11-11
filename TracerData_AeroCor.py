@@ -132,6 +132,7 @@ sub_folders = sorted( glob(Main_Path))
 
 Aggregate_Aero_Data = np.zeros((3,3,2)) # number of classifications,time periods, (ave,st.error)
 
+# Subfolders are our classification identifiers: Clear, SB, consecutive
 for i in range (0,len(sub_folders)):
     #%%
     
@@ -147,8 +148,6 @@ for i in range (0,len(sub_folders)):
     Lidar_Data_path = sorted( glob(Data_Path+'/houdlprofwind4newsM1.c1/*'))
     
     Num_files = len(Lidar_Data_path) ## Number of Files for looping over entire dataset
-    ## This loop is commented out but can be uncommented and all following lines can be indented (command + ]) to process ALL files at once
-    #print(Num_files)
     Aero_averages = np.zeros((3,(Num_files) ))
     for Day_Index in range (0,Num_files):
         
@@ -216,7 +215,11 @@ for i in range (0,len(sub_folders)):
    
 #%%
 
+# =============================================================================
+"""
+Section III: Data Graphing
 
+"""
 plt.figure(figsize=(15,10))
 rc('font',weight='normal',size=20)
 plt.grid(zorder=10)
