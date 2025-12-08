@@ -39,13 +39,13 @@ This script is broken down into 4 main sections:
 * Data processing
 * Data Graphing
 
-##ARM_fuzzy_main
+## ARM_fuzzy_main
 This code is a modified version of the fuzzy logic algorithm for finding atmospheric boundary layer (ABL) height developed by Elizabeth Smith and Jacob Carlin. The orignal fuzzy-logic code can be found on Smith's GitHub: https://github.com/eeeeelizzzzz/bliss-fl. The associated publication is Smith, E. N., and J. T. Carlin, 2024: A multi-instrument fuzzy logic boundary-layer-top detection algorithm. Atmospheric Measurement Techniques, 17, 4087–4107, https://doi.org/10.5194/amt-17-4087-2024.
 
-##ARM_VAD_Processing
+## ARM_VAD_Processing
 This file restrucutres the raw lidar PPI data into VADs for fuzzy logic
 
-##DLFP_Combine
+## DLFP_Combine
 This file restructures the multiple daily ARM files into one file per day for fuzzy logic.
 
 
