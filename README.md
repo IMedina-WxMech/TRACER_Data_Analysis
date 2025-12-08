@@ -19,6 +19,8 @@ For fuzzy logic:
 
 Both DFLPT and DLPPI need to be processed before they can be used in the fuzzy logic code. Processing for the DFLP can be found in the DLFP_Combine file and processing for the PPI can be found in the ARM_VAD_Processing file. Both of these files read in the data from ARM and restructure it for easy use in the fuzzy logic code.
 
+However, if you do not want to process these files, the outputted data from the fuzzy logic code with boundary layer heights and vertical velocity variances is available here in teh zipped BLData file.
+
 ## SB_Identification: Functions and Scope
 This script is used to identify when a sea-breeze was present in the data using gradients in wind speeds and water vapor (further explained in the attatched report). The script features three defined functions. These are used for designing and applying a lowpass filter, performing a windowed average, and performing a first derivate with a central differencing scheme. Each defined function gives a detailed description of inputs and outputs in the script itself. 
 
